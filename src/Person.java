@@ -3,19 +3,19 @@ import java.util.Date;
 public class Person {
     String firstname;
     String lastname;
-    Date birthDate;
+    int age;
     String email;
 
-    public Person(String firstname, String lastname, Date birthDate) {
+    public Person(String firstname, String lastname, int age) {
         this.firstname = firstname;
         this.lastname = lastname;
-        this.birthDate = birthDate;
+        this.age = age;
     }
 
-    public Person(String firstname, String lastname, Date birthDate, String email) {
+    public Person(String firstname, String lastname, int age, String email) {
         this.firstname = firstname;
         this.lastname = lastname;
-        this.birthDate = birthDate;
+        this.age = age;
         this.email = email;
     }
 
@@ -35,12 +35,12 @@ public class Person {
         this.lastname = lastname;
     }
 
-    public Date getBirthDate() {
-        return birthDate;
+    public int getAge() {
+        return age;
     }
 
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getEmail() {
