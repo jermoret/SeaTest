@@ -4,11 +4,19 @@ public class Person {
     String firstname;
     String lastname;
     Date birthDate;
+    String email;
 
     public Person(String firstname, String lastname, Date birthDate) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.birthDate = birthDate;
+    }
+
+    public Person(String firstname, String lastname, Date birthDate, String email) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.birthDate = birthDate;
+        this.email = email;
     }
 
     public String getFirstname() {
@@ -33,5 +41,13 @@ public class Person {
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
