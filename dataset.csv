@@ -1,0 +1,8 @@
+"commit_hash","commit_name","author_name","author_email","commit_date","filename","additions","deletions","chunk"
+"921229b","Add person class","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:30:05 +0100",".gitignore",2,0,0
+"921229b","Add person class","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:30:05 +0100","src/Person.java",37,0,0
+"493056b","Add animal class","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:33:34 +0100","src/childs.Animal.java",24,0,0
+"b7edfea","Add person's email field","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:35:12 +0100","src/Person.java",16,0,0
+"2d30de1","Oups i wanted age instead of birthDate","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:37:46 +0100","src/Person.java",9,9,9
+"786fe01","Add cat and add animal's color field","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:55:53 +0100","src/childs.Animal.java",11,1,1
+"786fe01","Add cat and add animal's color field","Jérôme Moret","jermoret@gmail.com","2017-03-14 13:55:53 +0100","src/childs.Cat.java",17,0,0

@@ -1,3 +1,5 @@
+package childs;
+
 /**
  * Auteur    : Moret Jérôme
  * Date      : 14/03/2017
@@ -12,6 +14,6 @@ public class Cat extends Animal {
 
     @Override
     public void speak() {
-        System.out.println("Meow !");
+        System.out.println("Vénère !");
     }
 }
